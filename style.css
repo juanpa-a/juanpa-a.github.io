@@ -1,0 +1,44 @@
+* {
+    font-family: 'Merriweather', serif;
+    color:#424242;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+    color: #f3f3f3;
+    background:#424242;
+}
+
+.bio {
+    padding-top: 15px;
+    width: 20%;
+    float: left;
+    padding-left: 5%;
+    /* background: red; */
+}
+
+.lorem {
+    width: 40%;
+    float: left;
+    padding-top: 95px;
+    padding-right: 5%;
+    /* background: green; */
+}
+
+a {
+    color: #d32f2f;
+}
+
+.contact {
+    padding-top: 15px;
+    width: 30%;
+    float: left;
+    line-height: 35px;
+    /* background: blue; */
+}
