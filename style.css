@@ -1,44 +1,57 @@
+/* COLOR PALETTE */
+/* https://coolors.co/efefef-f4afab-34d1bf-070707-f4eea9 */
+
 * {
-    font-family: 'Merriweather', serif;
-    color:#424242;
+    font-family: 'Roboto Mono', monospace;
 }
 
 body {
+    background: #bbbbbb;
+}
+
+#nav {
+    background: #070707;
+    padding: 10px;
+}
+
+#love {
+    color: #ed254e;
+    font-size: 1.6rem;
+}
+
+.navbar-brand, .nav-link, .nav-item{
+    color: #9c706d;
+}
+
+.navbar-brand:hover, .nav-link:hover, .nav-item:hover {
+    color: #c8908c;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+    font-weight: bolder;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+canvas {
+    background: #bbbbbb;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
     margin: 0px;
-}
-
-.header {
-    text-align: center;
-    padding: 25px;
-    margin: 0;
-    color: #f3f3f3;
-    background:#424242;
-}
-
-.bio {
-    padding-top: 15px;
-    width: 20%;
-    float: left;
-    padding-left: 5%;
-    /* background: red; */
-}
-
-.lorem {
-    width: 40%;
-    float: left;
-    padding-top: 95px;
-    padding-right: 5%;
-    /* background: green; */
-}
-
-a {
-    color: #d32f2f;
-}
-
-.contact {
-    padding-top: 15px;
-    width: 30%;
-    float: left;
-    line-height: 35px;
-    /* background: blue; */
+    border: 0;
+    overflow-x: hidden;
+    display: block;
 }
